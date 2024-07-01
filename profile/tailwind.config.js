@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        appVh: "calc(99vh)",
+      },
+    },
   },
   plugins: [],
 }

@@ -8,7 +8,7 @@ import React from "react";
 const Navigation: React.FC = () => {
   return (
     <>
-      <div className="flex justify-between m-[1%]">
+      <div className="flex justify-between py-[1vh] px-[2vh] bg-slate-200">
         <div>
           <p className="font-bold text-2xl">KDY's Portfolio</p>
         </div>
